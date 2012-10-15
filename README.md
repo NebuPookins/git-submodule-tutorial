@@ -106,7 +106,7 @@ The recommended workflow is to never edit the contents of appA/model/ directly,
 but rather to update the model repo, and then to update the pointers in your
 appA, appB, etc. repos.
 
-First, make the desire changes in your model repo:
+First, make the desired changes in your model repo:
 
     $ pwd
     /home/alice/dev/model
