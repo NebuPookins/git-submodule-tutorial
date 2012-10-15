@@ -91,6 +91,9 @@ then `git submodule update` to actually retrieve the contents of the submodule.
     $ ls model/
     user.class.php
 
+As you can see, just doing a `git pull` or a `git submodule init` is not
+sufficient to actually retrieve the contents of the submodule.
+
 Making changes to the submodule
 ===============================
 
