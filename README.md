@@ -154,6 +154,11 @@ adjust your application's code accordingly.
      create mode 100644 controllers.blog.php
     $ git push
 
+The key step here is that you must go into the submodule directory
+(`cd model`) and perform the `git pull` there, rather than in the root of
+the parent repo. Then you must return to the parent repo (i.e. be outside of
+the submodule) when you perform the commit and push.
+
 Repeat as necessary for appB, appC, etc.
 
 Receiving changes to the submodule
